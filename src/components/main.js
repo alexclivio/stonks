@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Search from './Search'
-import Coins from './Coins'
+import './css/coin.css'
+import './css/main.css'
+
 
 const App = () => {
   return (
-    <div>
+    <div className='coin-app'>
       <Search/>
-      <Coins/>
     </div>
   )
 }
